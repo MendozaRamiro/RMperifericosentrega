@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  color: #111;
+}
+
+
+.navbar {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.logo span {
+  color: #ff0f52;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #ff0f52;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #000000, #111);
+  color: white;
+}
+.hero h1 span {
+  color: #ff0f52;
+}
+.btn {
+  background: #ff0f52;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #ff3f7a;
+}
+
+
+.productos {
+  text-align: center;
+  padding: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background: #ff0f52;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff3f7a;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
